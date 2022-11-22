@@ -1,0 +1,191 @@
+main {
+    width: 1140px;
+    height: 1158px;
+
+    margin-top: 159.5px;
+    margin-left: 150px;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100%;
+
+    background: yellow;
+}
+
+.about {
+    width: 1140px;
+    height: 447px;
+}
+
+.about-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100%;
+
+    background: green;
+}
+
+.about-wrapper .title {
+    width: 167px;
+    height: 42px;
+
+    margin-left: 487px;
+    background: lightcyan;
+}
+
+.about-wrapper .title p {
+
+}
+
+.about-wrapper .text {
+    width: 745px;
+    height: 160px;
+
+    margin-top: 30px;
+    margin-left: 198px;
+    background: lightcyan;
+}
+
+.about-wrapper .text p {
+
+}
+
+.contact-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 121px;
+
+    width: 100%;
+    height: 130px;
+
+    margin-top: 85px;
+
+    background: lightcoral;
+}
+
+.contact-info-1 {
+    display: flex;
+    flex-direction: column;
+
+    width: 94px;
+    height: 100%;
+
+    margin-left: 157px;
+    background: lightblue;
+}
+
+.contact-info-2 {
+    display: flex;
+    flex-direction: column;
+
+    width: 167px;
+    height: 100%;
+
+    background: lightblue;
+}
+
+.contact-info-3 {
+    display: flex;
+    flex-direction: column;
+
+    width: 88px;
+    height: 100%;
+
+    background: lightblue;
+}
+
+.contact-info-4 {
+    display: flex;
+    flex-direction: column;
+
+    width: 130px;
+    height: 100%;
+
+    background: lightblue;
+}
+
+.projects {
+    width: 1140px;
+    height: 584px;
+}
+
+.projects-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100%;
+
+    margin-top: 127px;
+    background: lightgreen;
+}
+
+.projects-wrapper .title {
+    display: flex;
+    align-self: center;
+
+    width: 128px;
+    height: 42px;
+
+    background: lightgray;
+}
+
+.projects-wrapper .title p {
+
+}
+
+.project-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px 45px;
+
+    width: 100%;
+    height: 512px;
+
+    margin-top: 30px;
+    background: lightblue;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+
+    width: 350px;
+    height: 240px;
+
+    background: lightseagreen;
+}
+
+.project .banner {
+    width: 300px;
+    height: 130px;
+
+    margin: 20px 25px;
+    background: lightcoral;
+}
+
+.project h4 {
+    width: 140px;
+    height: 23px;
+
+    margin-top: 3px;
+    margin-left: 25px;
+
+    background: lightgray;
+}
+
+.project p {
+    width: 185px;
+    height: 18px;
+
+    margin-top: 6px;
+    margin-left: 25px;
+
+    background: lightgray;
+}

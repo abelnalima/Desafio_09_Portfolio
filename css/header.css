@@ -1,0 +1,146 @@
+header {
+    width: 100%;
+    height: 433.5px;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 110px;
+
+    width: 100%;
+    height: 100%;
+
+    background: yellow;
+}
+
+nav {
+    width: 1140px;
+    height: 34px;
+
+    margin-top: 35px;
+}
+
+.nav-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 100%;
+
+    margin-left: 150px;
+
+    background: crimson;
+}
+
+.nav-wrapper .title {
+    width: 107px;
+    height: 100%;
+
+    background: lightblue;
+}
+
+.nav-wrapper .title a {
+    text-decoration: none;
+}
+
+.menus {
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+
+    width: 469px;
+    height: 23px;
+
+    background: lightcoral;
+}
+
+.menus a {
+    text-decoration: none;
+}
+
+.content {
+    width: 1140px;
+    height: 254.5px;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 503px;
+
+    width: 100%;
+    height: 100%;
+
+    margin-left: 150px;
+    background: blue;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+
+    width: 337px;
+    height: 100%;
+
+    background: lightpink;
+}
+
+.intro h3 {
+    width: 221px;
+    height: 94px;
+
+    margin-top: 33px;
+    background: lightcyan;
+}
+
+.intro p {
+    width: 337px;
+    height: 23px;
+
+    margin-top: 18px;
+
+    background: lightcyan;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+    width: 315px;
+    height: 42px;
+
+    margin-top: 35px;
+    background: lightseagreen;
+}
+
+.btn-cv {
+    display: flex;
+
+    width: 143px;
+    height: 42px;
+
+    border: none;
+}
+
+.btn-contact {
+    display: flex;
+
+    width: 157px;
+    height: 42px;
+
+    border: none;
+}
+
+.content-wrapper .banner {
+    display: flex;
+
+    width: 300px;
+    height: 254.5px;
+
+    background: lightgreen;
+}
