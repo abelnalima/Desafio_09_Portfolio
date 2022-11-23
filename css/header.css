@@ -1,24 +1,22 @@
 header {
     width: 100%;
-    height: 433.5px;
+    height: 27.09375rem;
 }
 
 .header-wrapper {
     display: flex;
     flex-direction: column;
-    gap: 110px;
+    gap: 6.875rem;
 
     width: 100%;
     height: 100%;
-
-    background: yellow;
 }
 
 nav {
-    width: 1140px;
-    height: 34px;
+    width: 71.25rem;
+    height: 2.125rem;
 
-    margin-top: 35px;
+    margin-top: 2.1875rem;
 }
 
 .nav-wrapper {
@@ -30,117 +28,192 @@ nav {
     width: 100%;
     height: 100%;
 
-    margin-left: 150px;
-
-    background: crimson;
+    margin-left: 9.375rem;
 }
 
 .nav-wrapper .title {
-    width: 107px;
-    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-    background: lightblue;
+    width: 6.6875rem;
+    height: 100%;
 }
 
 .nav-wrapper .title a {
+    font-family: 'DMSans-Bold', sans-serif;
+    font-size: 1.625rem;
+    line-height: 2.125rem;
     text-decoration: none;
+
+    color: var(--white-100);
 }
 
 .menus {
     display: flex;
     flex-direction: row;
-    gap: 45px;
+    gap: 2.8125rem;
 
-    width: 469px;
-    height: 23px;
+    width: 29.3125rem;
+    height: 1.4375rem;
+}
 
-    background: lightcoral;
+.menu-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 5.6875rem;
+    height: 1.4375rem;
+}
+
+.menu-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 4.25rem;
+    height: 1.4375rem;
+}
+
+.menu-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 4.4375rem;
+    height: 1.4375rem;
+}
+
+.menu-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 6.5rem;
+    height: 1.4375rem;
 }
 
 .menus a {
+    font-family: 'DMSans-Regular', sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.4375rem;
     text-decoration: none;
+
+    color: var(--white-100);
 }
 
 .content {
-    width: 1140px;
-    height: 254.5px;
+    width: 71.25rem;
+    height: 15.90625rem;
 }
 
 .content-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 503px;
+    gap: 31.4375rem;
 
     width: 100%;
     height: 100%;
 
-    margin-left: 150px;
-    background: blue;
+    margin-left: 9.375rem;
 }
 
 .intro {
     display: flex;
     flex-direction: column;
 
-    width: 337px;
+    width: 21.0625rem;
     height: 100%;
+}
 
-    background: lightpink;
+.intro .text-1 {
+    display: flex;
+
+    width: 13.8125rem;
+    height: 5.6875rem;
+
+    margin-top: 2.0625rem;
 }
 
 .intro h3 {
-    width: 221px;
-    height: 94px;
+    font-family: 'DMSans-Bold', sans-serif;
+    font-size: 2.25rem;
+    line-height: 2.9375rem;
 
-    margin-top: 33px;
-    background: lightcyan;
+    color: var(--white-100);
+}
+
+.intro .text-2 {
+    width: 21.0625rem;
+    height: 1.4375rem;
+
+    margin-top: 1.125rem;
 }
 
 .intro p {
-    width: 337px;
-    height: 23px;
+    font-family: 'DMSans-Medium', sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.4375rem;
 
-    margin-top: 18px;
-
-    background: lightcyan;
+    color: var(--gray);
 }
 
 .buttons {
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: 0.9375rem;
 
-    width: 315px;
-    height: 42px;
+    width: 30.9375rem;
+    height: 2.625rem;
 
-    margin-top: 35px;
-    background: lightseagreen;
+    margin-top: 2.1875rem;
 }
 
 .btn-cv {
     display: flex;
+    align-items: center;
+    justify-content: center;
 
-    width: 143px;
-    height: 42px;
+    width: 8.9375rem;
+    height: 2.625rem;
 
     border: none;
+    background: var(--green-light);
+}
+
+.btn-cv p {
+    font-family: 'DMSans-Medium', sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+
+    color: var(--dark);
 }
 
 .btn-contact {
     display: flex;
+    align-items: center;
+    justify-content: center;
 
-    width: 157px;
-    height: 42px;
+    width: 9.8125rem;
+    height: 2.625rem;
 
     border: none;
+    background: var(--dark);
+}
+
+.btn-contact p {
+    font-family: 'DMSans-Medium', sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+
+    color: var(--white-100);
 }
 
 .content-wrapper .banner {
     display: flex;
 
-    width: 300px;
-    height: 254.5px;
-
-    background: lightgreen;
+    width: 18.75rem;
+    height: 15.90625rem;
 }

@@ -1,8 +1,8 @@
 footer {
-    width: 1140px;
-    height: 906px;
+    width: 71.25rem;
+    height: 56.625rem;
 
-    margin-top: 127px;
+    margin-top: 7.9375rem;
 }
 
 .footer-wrapper {
@@ -12,13 +12,12 @@ footer {
     width: 100%;
     height: 100%;
 
-    margin-left: 150px;
-    background: yellow;
+    margin-left: 9.375rem;
 }
 
 .services {
     width: 100%;
-    height: 312px;
+    height: 19.5rem;
 }
 
 .services-wrapper {
@@ -27,84 +26,88 @@ footer {
 
     width: 100%;
     height: 100%;
-
-    background: lightseagreen;
 }
 
 .services-wrapper .title {
     display: flex;
 
-    width: 133px;
-    height: 42px;
+    width: 8.3125rem;
+    height: 2.625rem;
 
-    margin-left: 504px;
-    background: lightgray;
+    margin-left: 31.5rem;
 }
 
 .services-wrapper .title p {
+    font-family: 'DMSans-Bold', sans-serif;
+    font-size: 2rem;
+    line-height: 2.625rem;
+    text-align: center;
 
+    color: var(--white-100);
 }
 
 .services-list {
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
-    gap: 45px;
+    gap: 2.8125rem;
 
     width: 100%;
-    height: 240px;
+    height: 15rem;
 
-    margin-top: 30px;
-    background: lightgreen;
+    margin-top: 1.875rem;
 }
 
 .service {
     display: flex;
     flex-direction: column;
 
-    width: 350px;
+    width: 21.875rem;
     height: 100%;
-
-    background: lightcoral;
 }
 
 .service .icon {
-    width: 56px;
-    height: 56px;
+    width: 3.5rem;
+    height: 3.5rem;
 
-    margin: 30px 0 0 30px;
-    
-    background: lightblue;
+    margin: 1.875rem 0 0 1.875rem;
 }
 
 .service .service-name {
     display: flex;
 
-    width: 182px;
-    height: 84px;
+    width: 8.375rem;
+    height: 5.25rem;
 
-    margin: 40px 0 0 30px;
-    background: lightgray;
+    margin: 2.5rem 0 0 1.875rem;
+}
+
+#service-3 {
+    width: 11.875rem;
 }
 
 .service .service-name p {
+    font-family: 'DMSans-Medium', sans-serif;
+    font-size: 2rem;
+    line-height: 2.625rem;
 
+    color: var(--gray);
 }
 
 .service .line {
-    width: 349px;
-    height: 5px;
+    width: 21.8125rem;
+    height: 0.3125rem;
 
-    margin-top: 25px;
+    margin-top: 1.5625rem;
 
     background: var(--green-light);
 }
 
 .skills {
     width: 100%;
-    height: 222px;
+    height: 13.875rem;
 
-    margin-top: 127px;
+    margin-top: 7.9375rem;
 }
 
 .skills-wrapper {
@@ -113,54 +116,46 @@ footer {
 
     width: 100%;
     height: 100%;
-
-    background: crimson;
 }
 
 .skills-wrapper .title {
     display: flex;
 
-    width: 196px;
-    height: 42px;
+    width: 12.25rem;
+    height: 2.625rem;
 
-    margin-left: 504px;
-    background: lightgray;
+    margin-left: 31.5rem;
+}
+
+.skills-wrapper .title p {
+    font-family: 'DMSans-Bold', sans-serif;
+    font-size: 2rem;
+    line-height: 2.625rem;
+    text-align: center;
+
+    color: var(--white-100);
 }
 
 .tech-skills {
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
-    gap: 51px;
+    gap: 3.1875rem;
 
     width: 100%;
-    height: 150px;
+    height: 9.375rem;
 
-    margin-top: 30px;
-    margin-left: -7.5px;
-    background: lightblue;
+    margin-top: 1.875rem;
+    margin-left: -0.46875rem;
 }
 
 .tech-icon {
-    width: 150px;
-    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-    background: lightgreen;
-}
-
-.tech-icon img {
-    width: 80px;
-    height: 80px;
-}
-
-.tech-icon .img-2 {
-    width: 70px;
-    height: 80px;
-}
-
-.tech-icon .img-6 {
-    width: 80px;
-    height: 48.28px;
+    width: 9.375rem;
+    height: 9.375rem;
 }
 
 .author {
@@ -169,20 +164,28 @@ footer {
     width: 100%;
     height: 60px;
 
-    margin-top: 185px;
-    background: orange;
+    margin-top: 11.5625rem;
 }
 
 .author-name {
     display: flex;
 
-    width: 258px;
-    height: 21px;
+    width: 31.25rem;
+    height: 1.3125rem;
 
-    margin: 20px 441px;
-    background: lightgray;
+    margin-top: 1.25rem;
+    margin-left: 24.375rem;
 }
 
 .author-name p {
+    font-family: 'DMSans-Regular', sans-serif;
+    font-size: 1rem;
+    line-height: 1.3125rem;
+    text-align: center;
 
+    color: var(--white-100);
+}
+
+.author-name span {
+    color: var(--green-light);
 }

@@ -1,9 +1,9 @@
 main {
-    width: 1140px;
-    height: 1158px;
+    width: 71.25rem;
+    height: 72.375rem;
 
-    margin-top: 159.5px;
-    margin-left: 150px;
+    margin-top: 9.96875rem;
+    margin-left: 9.375rem;
 }
 
 .main-wrapper {
@@ -12,13 +12,11 @@ main {
 
     width: 100%;
     height: 100%;
-
-    background: yellow;
 }
 
 .about {
-    width: 1140px;
-    height: 447px;
+    width: 71.25rem;
+    height: 27.9375rem;
 }
 
 .about-wrapper {
@@ -27,92 +25,154 @@ main {
 
     width: 100%;
     height: 100%;
-
-    background: green;
 }
 
 .about-wrapper .title {
-    width: 167px;
-    height: 42px;
+    width: 10.4375rem;
+    height: 2.625rem;
 
-    margin-left: 487px;
-    background: lightcyan;
+    margin-left: 30.4375rem;
 }
 
 .about-wrapper .title p {
+    font-family: 'DMSans-Bold', sans-serif;
+    font-size: 2rem;
+    line-height: 2.625rem;
 
+    color: var(--white-100);
 }
 
 .about-wrapper .text {
-    width: 745px;
-    height: 160px;
+    width: 46.5625rem;
+    height: 10rem;
 
-    margin-top: 30px;
-    margin-left: 198px;
-    background: lightcyan;
+    margin-top: 1.875rem;
+    margin-left: 12.375rem;
 }
 
 .about-wrapper .text p {
+    font-family: 'DMSans-Regular', sans-serif;
+    font-size: 1.125rem;
+    line-height: 2rem;
+    text-align: center;
 
+    color: var(--gray);
 }
 
 .contact-wrapper {
     display: flex;
     flex-direction: row;
-    gap: 121px;
+    gap: 7.5625rem;
 
     width: 100%;
-    height: 130px;
+    height: 11.875rem;
 
-    margin-top: 85px;
+    margin-top: 5.3125rem;
+}
 
-    background: lightcoral;
+.contact-wrapper h4 {
+    font-family: 'DMSans-Regular', sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.4375rem;
+    text-align: center;
+
+    color: var(--white-100);
+
+    margin-top: 1.1875rem;
+}
+
+.contact-wrapper p {
+    font-family: 'DMSans-Regular', sans-serif;
+    font-size: 1rem;
+    line-height: 1.3125rem;
+    text-align: center;
+
+    color: var(--gray);
+
+    margin-top: 0.3125rem;
 }
 
 .contact-info-1 {
     display: flex;
     flex-direction: column;
 
-    width: 94px;
+    width: 5.875rem;
     height: 100%;
 
-    margin-left: 157px;
-    background: lightblue;
+    margin-left: 9.8125rem;
+}
+
+.contact-info-1 .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 3.875rem;
+    height: 3.875rem;
+
+    margin-left: 1rem;
 }
 
 .contact-info-2 {
     display: flex;
     flex-direction: column;
 
-    width: 167px;
+    width: 11.25rem;
     height: 100%;
+}
 
-    background: lightblue;
+.contact-info-2 .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 3.875rem;
+    height: 3.875rem;
+
+    margin-left: 3.6875rem;
 }
 
 .contact-info-3 {
     display: flex;
     flex-direction: column;
 
-    width: 88px;
+    width: 5.5rem;
     height: 100%;
+}
 
-    background: lightblue;
+.contact-info-3 .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 3.875rem;
+    height: 3.875rem;
+
+    margin-left: 0.8125rem;
 }
 
 .contact-info-4 {
     display: flex;
     flex-direction: column;
 
-    width: 130px;
+    width: 11.875rem;
     height: 100%;
+}
 
-    background: lightblue;
+.contact-info-4 .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 3.875rem;
+    height: 3.875rem;
+
+    margin-left: 2.125rem;
 }
 
 .projects {
-    width: 1140px;
-    height: 584px;
+    width: 71.25rem;
+    height: 36.5rem;
 }
 
 .projects-wrapper {
@@ -122,70 +182,76 @@ main {
     width: 100%;
     height: 100%;
 
-    margin-top: 127px;
-    background: lightgreen;
+    margin-top: 7.9375rem;
 }
 
 .projects-wrapper .title {
     display: flex;
     align-self: center;
 
-    width: 128px;
-    height: 42px;
-
-    background: lightgray;
+    width: 8rem;
+    height: 2.625rem;
 }
 
 .projects-wrapper .title p {
+    font-family: 'DMSans-Bold', sans-serif;
+    font-size: 2rem;
+    line-height: 2.625rem;
 
+    color: var(--white-100);
 }
 
 .project-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 32px 45px;
+    gap: 2rem 2.8125rem;
 
     width: 100%;
-    height: 512px;
+    height: 32rem;
 
-    margin-top: 30px;
-    background: lightblue;
+    margin-top: 1.875rem;
 }
 
 .project {
     display: flex;
     flex-direction: column;
 
-    width: 350px;
-    height: 240px;
-
-    background: lightseagreen;
+    width: 21.875rem;
+    height: 15rem;
 }
 
 .project .banner {
-    width: 300px;
-    height: 130px;
+    width: 18.75rem;
+    height: 11.875rem;
 
-    margin: 20px 25px;
-    background: lightcoral;
+    margin: 1.25rem 1.5625rem;
 }
 
 .project h4 {
-    width: 140px;
-    height: 23px;
+    width: 8.75rem;
+    height: 1.4375rem;
 
-    margin-top: 3px;
-    margin-left: 25px;
+    margin-top: 0.1875rem;
+    margin-left: 1.5625rem;
 
-    background: lightgray;
+    font-family: 'DMSans-Medium', sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.4375rem;
+    text-align: center;
+
+    color: var(--white-100);
 }
 
 .project p {
-    width: 185px;
-    height: 18px;
+    width: 11.5625rem;
+    height: 1.125rem;
 
-    margin-top: 6px;
-    margin-left: 25px;
+    margin-top: 0.375rem;
+    margin-left: 1.5625rem;
 
-    background: lightgray;
+    font-family: 'DMSans-Regular', sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+
+    color: var(--gray);
 }
