@@ -138,8 +138,7 @@ footer {
 
 .tech-skills {
     display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 3.1875rem;
 
     width: 100%;
@@ -188,4 +187,462 @@ footer {
 
 .author-name span {
     color: var(--green-light);
+}
+
+@media screen and (max-width: 1366px) {
+    .footer-wrapper {
+        margin-left: 7.5rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    footer {
+        width: 100%;
+    }
+
+    .footer-wrapper {
+        width: 976px;
+
+        margin-left: 3rem;
+    }
+
+    .services-wrapper .title {
+        margin-left: 24.5rem;
+    }
+
+    .service {
+        width: 17.5rem;
+    }
+
+    .service .service-name p {
+        font-size: 1.75rem;
+        line-height: 2.625rem;
+    }
+
+    .service .line {
+        width: 17.5rem;
+    }
+
+    .skills-wrapper .title {
+        margin-left: 24.5rem;
+    }
+
+    .tech-icon {
+        width: 6.25rem;
+        height: 6.25rem;
+    }
+
+    .author-name {
+        margin-left: 16rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        width: 100%;
+        height: 949px;
+    
+        margin-top: 56px;
+    }
+    
+    .footer-wrapper {
+        display: flex;
+        flex-direction: column;
+    
+        width: 100%;
+        height: 100%;
+    
+        margin-left: 0;
+    }
+    
+    .services {
+        width: 100%;
+        height: 541px;
+    }
+    
+    .services-wrapper {
+        display: flex;
+        flex-direction: column;
+    
+        width: 100%;
+        height: 100%;
+    }
+    
+    .services-wrapper .title {
+        display: flex;
+        justify-content: center;
+    
+        width: 720px;
+        height: 31px;
+    
+        margin-left: 24px;
+    }
+    
+    .services-wrapper .title p {
+        font-family: 'DMSans-Bold', sans-serif;
+        font-size: 2rem;
+        line-height: 31px;
+        text-align: center;
+    
+        color: var(--white-100);
+    }
+    
+    .services-list {
+        display: grid;
+        grid-auto-flow: row;
+        grid-auto-columns: 1fr;
+        gap: 24px;
+    
+        width: 311px;
+        height: 468px;
+    
+        margin-top: 42px;
+        margin-left: 204.5px;
+    }
+    
+    .service {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        width: 311px;
+        height: 140px;
+    }
+    
+    .service .icon {
+        width: 40px;
+        height: 40px;
+    
+        margin-top: 15px;
+        margin-left: 0;
+    }
+    
+    .service .service-name {
+        display: flex;
+        justify-content: center;
+    
+        width: 90%;
+        height: 5.25rem;
+    
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    
+    #service-3 {
+        width: 90%;
+    }
+    
+    .service .service-name p {
+        font-family: 'DMSans-Medium', sans-serif;
+        font-size: 24px;
+        line-height: 18px;
+    
+        color: var(--gray);
+    }
+    
+    .service .line {
+        width: 100%;
+        height: 0.3125rem;
+    
+        margin-top: 0;
+    
+        background: var(--green-light);
+    }
+    
+    .skills {
+        width: 100%;
+        height: 367px;
+    
+        margin-top: 56px;
+    }
+    
+    .skills-wrapper {
+        display: flex;
+        flex-direction: column;
+    
+        width: 100%;
+        height: 100%;
+    }
+    
+    .skills-wrapper .title {
+        display: flex;
+        justify-content: center;
+    
+        width: 720px;
+        height: 31px;
+    
+        margin-left: 0;
+    }
+    
+    .skills-wrapper .title p {
+        font-family: 'DMSans-Bold', sans-serif;
+        font-size: 2rem;
+        line-height: 31px;
+        text-align: center;
+    
+        color: var(--white-100);
+    }
+    
+    .tech-skills {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 21px 21px;
+    
+        width: 312px;
+        height: 201px;
+    
+        margin-top: 24px;
+        margin-left: 204px;
+    }
+    
+    .tech-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        width: 90px;
+        height: 90px;
+    }
+
+    .tech-icon svg {
+        width: 42px;
+        height: 48px;
+    }
+    
+    .author {
+        display: flex;
+    
+        width: 100%;
+        height: 40px;
+    
+        margin-top: 56px;
+    }
+    
+    .author-name {
+        display: flex;
+        justify-content: center;
+    
+        width: 100%;
+        height: 1.3125rem;
+    
+        margin-top: 0;
+        margin-left: 0;
+    }
+    
+    .author-name p {
+        font-family: 'DMSans-Regular', sans-serif;
+        font-size: 1rem;
+        line-height: 1.3125rem;
+        text-align: center;
+    
+        color: var(--white-100);
+    }
+    
+    .author-name span {
+        color: var(--green-light);
+    }
+}
+
+@media screen and (max-width: 360px) {
+    footer {
+        width: 100%;
+        height: 949px;
+    
+        margin-top: 56px;
+    }
+    
+    .footer-wrapper {
+        display: flex;
+        flex-direction: column;
+    
+        width: 100%;
+        height: 100%;
+    
+        margin-left: 0;
+    }
+    
+    .services {
+        width: 311px;
+        height: 541px;
+    }
+    
+    .services-wrapper {
+        display: flex;
+        flex-direction: column;
+    
+        width: 100%;
+        height: 100%;
+    }
+    
+    .services-wrapper .title {
+        display: flex;
+        justify-content: center;
+    
+        width: 100px;
+        height: 31px;
+    
+        margin-left: 130px;
+    }
+    
+    .services-wrapper .title p {
+        font-family: 'DMSans-Bold', sans-serif;
+        font-size: 24px;
+        line-height: 31px;
+        text-align: center;
+    
+        color: var(--white-100);
+    }
+    
+    .services-list {
+        display: grid;
+        grid-auto-flow: row;
+        grid-auto-columns: 1fr;
+        gap: 24px;
+    
+        width: 311px;
+        height: 468px;
+    
+        margin-top: 42px;
+        margin-left: 24px;
+    }
+    
+    .service {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        width: 311px;
+        height: 140px;
+    }
+    
+    .service .icon {
+        width: 40px;
+        height: 40px;
+    
+        margin-top: 15px;
+        margin-left: 0;
+    }
+    
+    .service .service-name {
+        display: flex;
+    
+        width: 113.83px;
+        height: 18px;
+    
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    
+    #service-3 {
+        width: 120px;
+    }
+    
+    .service .service-name p {
+        font-family: 'DMSans-Medium', sans-serif;
+        font-size: 14px;
+        line-height: 18px;
+    
+        color: var(--gray);
+    }
+    
+    .service .line {
+        width: 100%;
+        height: 3px;
+    
+        margin-top: 34px;
+    
+        background: var(--green-light);
+    }
+    
+    .skills {
+        width: 100%;
+        height: 367px;
+    
+        margin-top: 56px;
+    }
+    
+    .skills-wrapper {
+        display: flex;
+        flex-direction: column;
+    
+        width: 100%;
+        height: 100%;
+    }
+    
+    .skills-wrapper .title {
+        display: flex;
+        justify-content: center;
+    
+        width: 147px;
+        height: 31px;
+    
+        margin-left: 107px;
+    }
+    
+    .skills-wrapper .title p {
+        font-family: 'DMSans-Bold', sans-serif;
+        font-size: 24px;
+        line-height: 31px;
+        text-align: center;
+    
+        color: var(--white-100);
+    }
+    
+    .tech-skills {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 21px 21px;
+    
+        width: 312px;
+        height: 201px;
+    
+        margin-top: 24px;
+        margin-left: 24px;
+    }
+    
+    .tech-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        width: 90px;
+        height: 90px;
+    }
+
+    .tech-icon svg {
+        width: 48px;
+        height: 48px;
+    }
+    
+    .author {
+        display: flex;
+    
+        width: 100%;
+        height: 40px;
+    
+        margin-top: 56px;
+    }
+    
+    .author-name {
+        display: flex;
+    
+        width: 100%;
+        height: 16px;
+    
+        margin-top: 0;
+        margin-left: 0;
+    }
+    
+    .author-name p {
+        font-family: 'DMSans-Regular', sans-serif;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+    
+        color: var(--white-100);
+    }
+    
+    .author-name span {
+        color: var(--green-light);
+    }
 }
